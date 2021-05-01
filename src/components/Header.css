@@ -1,0 +1,23 @@
+.header{
+    background-color: rgba(44,62,80);
+    padding: 1rem;
+}
+
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+.header-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}}
+
+.enlace-home{
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}

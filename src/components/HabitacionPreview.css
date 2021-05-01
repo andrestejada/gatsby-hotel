@@ -1,0 +1,25 @@
+.container-preview{
+    border: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+
+.contenido-preview{
+    padding: 3rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+.boton{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgba(44,62,80,.85);
+    width: 100%;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}

@@ -1,0 +1,30 @@
+.footer{
+    background-color: rgba(44,62,80);
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.footer-box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .footer-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.enlaceHome{
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+.p-footer{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(33,44,55);
+    margin: 0;
+    padding: 1rem;  
+}
