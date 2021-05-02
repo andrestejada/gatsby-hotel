@@ -27,12 +27,12 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `${__dirname}/src/assets`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-source-datocms`,
-      options: { apiToken: `db7ce28cf30ed936d3e69ffb77e2b8` }
+      options: { apiToken: `db7ce28cf30ed936d3e69ffb77e2b8`}
     },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
